@@ -1,5 +1,20 @@
 <h1>List of photos</h1>
 
+<% # Form %>
+
+<form action="/insert_photo">
+  <label for="image box">Image</label>
+  <input id="image box" name="query_image" placeholder="Enter a URL for the image">
+
+  <label for="caption box">Caption</label>
+  <textarea id="caption box" name="query_caption" placeholder="Enter a caption for the photo..."></textarea>
+
+  <label for="owner id box">Owner ID</label>
+  <input id="owner id box" name="query_owner_id" placeholder="Enter an ID of a User">
+
+  <button>Add photo</button>
+</form>
+
 <hr>
 
 <table border="1">
